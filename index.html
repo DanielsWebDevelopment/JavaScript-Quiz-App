@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript Search Filter</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Main Title  -->
+      <div class="main_title">
+        <h1>Search a topic</h1>
+        <span>Choose for a category of Items</span>
+      </div>
+
+      <div class="content_card">
+        <!--  Search input for filter Search         -->
+        <div class="search-input" id="input">
+          <input
+            type="text"
+            placeholder="Search a Topic"
+            id="search_input"
+            oninput="searchFilter()"
+          />
+          <span class="search-btn"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></span>
+        </div>
+        <!--  Search input for filter Search         -->
+
+        <!--  Main Page Content         -->
+        <div class="main_content" id="content">
+          <div data-category="Javascript" class="topic">Javascript</div>
+          <div data-category="Javascript" class="topic">HTML</div>
+          <div data-category="Javascript" class="topic">CSS</div>
+          <div data-category="Javascript" class="topic">Bootstrap</div>
+          <div data-category="Javascript" class="topic">Tailwind CSS</div>
+          <div data-category="Javascript" class="topic">React JS</div>
+          <div data-category="Javascript" class="topic">Vue JS</div>
+          <div data-category="Javascript" class="topic">Angular</div>
+          <div data-category="Javascript" class="topic">Redux</div>
+          <div data-category="Javascript" class="topic">AWS</div>
+          <div data-category="Javascript" class="topic">netlify</div>
+          <div data-category="Javascript" class="topic">Font Awesome</div>
+          <div data-category="Javascript" class="topic">Wireframing</div>
+          <div data-category="Javascript" class="topic">Design</div>
+        </div>
+      </div>
+      <!--  Main Page Content         -->
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
